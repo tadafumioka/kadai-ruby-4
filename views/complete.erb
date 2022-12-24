@@ -67,7 +67,7 @@
         </tr>
        <tr>
            <th class="text-center">内容</th>
-           <th <% name = params['content'] %>
+           <th <% name = params['content'].gsub(/\r\n|\r|\n/, "<br>") %>
                 <p><%= name %></p></th>
        </tr>
        
