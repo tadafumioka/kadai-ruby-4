@@ -47,28 +47,23 @@
     <table class="table">
         <tr>
             <th class="text-center">会社</th>
-            <th <% name = params['company'] %>
-                <p><%= name %></p></th>
+            <th class="text-center"><% name = params['company'] %><p><%= name %></p></th>
         </tr>
         <tr>
             <th class="text-center">氏名</th>
-            <th <% name = params['name'] %>
-                <p><%= name %></p></th>
+            <th class="text-center"><% name = params['name'] %><p><%= name %></p></th>
         </tr>
         <tr>
             <th class="text-center">メール</th>
-            <th <% name = params['mail'] %>
-                <p><%= name %></p>
+            <th class="text-center"><% name = params['mail'] %><p><%= name %></p></th>
         </tr>
         <tr>
             <th class="text-center">電話番号</th>
-            <th <% name = params['tel'] %>
-                <p><%= name %></p></th>
+            <th class="text-center"><% name = params['tel'] %><p><%= name %></p></th>
         </tr>
        <tr>
            <th class="text-center">内容</th>
-           <th <% name = params['content'].gsub(/\r\n|\r|\n/, "<br>") %>
-                <p><%= name %></p></th>
+           <th class="text-center"><% name = params['content'].gsub(/\r\n|\r|\n/, "<br>") %><p><%= name %></p></th>
        </tr>
        
     </table>
